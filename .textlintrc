@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "html"
+  ],
+  "filters": {},
+  "rules": {
+    "preset-ja-technical-writing": true,
+    "textlint-rule-ja-space-between-half-and-full-width": {
+      "space": "always"
+    },
+    "prh": {
+      "rulePaths": [
+        "./prh.yml"
+      ]
+    }
+  }
+}
