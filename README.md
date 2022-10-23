@@ -4,24 +4,26 @@ mdnのtranslated-contentの日本語翻訳向けのlintツール
 
 ## Setup
 
+依存パッケージをインストール
+
 ```
-npm install
+yarn
 ```
 
 ## Usage
 
 ```
-npm run lint <チェックするファイル/ディレクトリの相対パス>
+yarn run lint <チェックするファイル/ディレクトリの相対パス>
 ```
 
 ex1. 特定のファイルをチェックする場合
 
 ```
-npm run lint ../translated-content/files/ja/mdn/about/index.html
+yarn run lint ../translated-content/files/ja/mdn/contribute/index.md
 ```
 
 ex2. 特定のディレクトリ配下のファイルをチェックする場合
 
 ```
-npm run lint ../translated-content/files/ja/mdn/about/
+yarn run lint ../translated-content/files/ja/mdn/contribute/
 ```
