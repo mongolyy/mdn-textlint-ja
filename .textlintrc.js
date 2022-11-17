@@ -1,4 +1,4 @@
-{
+module.exports = {
   "plugins": [
     "html"
   ],
@@ -6,10 +6,7 @@
   "rules": {
     "preset-ja-technical-writing": {
       "max-kanji-continuous-len": {
-        "allow": [
-          "自己実行無名関数",
-          "即時実行関数式"
-        ]
+        ...require("./allow-kanji")
       }
     },
     "textlint-rule-ja-space-between-half-and-full-width": {
