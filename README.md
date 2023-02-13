@@ -1,3 +1,6 @@
+# 注意  
+**プロジェクトは https://github.com/mozilla-japan/translation/tree/master/MDN/textlint に移動しました**
+
 # mdn-textlint-ja
 
 mdnのtranslated-contentの日本語翻訳向けのlintツール
